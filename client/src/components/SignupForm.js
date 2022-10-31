@@ -32,7 +32,7 @@ const SignupForm = () => {
     try {
       const { data } = await addUser(
         {
-          userInfo: {...userFormData}
+          variables: { ...userFormData }
         }
       );
       
@@ -55,7 +55,7 @@ const SignupForm = () => {
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
         {/* show alert if server response is bad */}
         <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
-         { error &&   "Something went wrong with your signup!" }
+         { error && "Something went wrong with your signup!" }
         </Alert>
 
         <Form.Group>
