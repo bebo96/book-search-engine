@@ -1,4 +1,4 @@
-# Book Search Engine Starter Code
+# Book Search Engine 
 
 ## Purpose
 A book search engine which allows users to save books and view them in a "Saved Books" page
@@ -15,9 +15,9 @@ A book search engine which allows users to save books and view them in a "Saved 
 https://github.com/bebo96/book-search-engine
 
 ## Deployed Application 
-https://bebo96.github.io/react-portfolio/
+https://sheltered-sierra-01431.herokuapp.com/ 
 
 ## Contribution
 Made with ❤️ by BEBO
 
-### ©️2022 React Portfolio
+### ©️2022 Book Search Engine 
