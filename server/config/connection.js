@@ -7,4 +7,15 @@ mongoose.connect(
     useUnifiedTopology: true,
   },
 );
+
+// To run locally, uncomment the below and comment the above
+//
+// mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks', {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useCreateIndex: true,
+//   useFindAndModify: false,
+// });
+
+
 module.exports = mongoose.connection;
